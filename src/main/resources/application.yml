@@ -1,0 +1,7 @@
+#可选cache类型，simple，ehcache,redis,如果不配置缓存类型 默认使用redis
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    type: redis
